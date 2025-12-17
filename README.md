@@ -1,7 +1,4 @@
-## Project Description (≈350 words)
-
-**Build AI Resume Analyzer Using Python, NLP & Streamlit** is an end-to-end machine learning project designed to automatically evaluate how well a candidate’s resume matches a given job description. The goal of this project is to demonstrate practical applications of Natural Language Processing (NLP) and Machine Learning techniques in real-world recruitment and HR analytics scenarios.
-
+## Project Description
 The application allows users to upload a resume in PDF format and paste a job description into a simple, interactive web interface built with Streamlit. Once submitted, the system extracts textual content from the resume, cleans and preprocesses the text using NLP techniques such as lowercasing, tokenization, and stopword removal, and then converts both the resume and job description into numerical representations using TF-IDF vectorization.
 
 To quantify the similarity between the resume and the job description, the project employs Cosine Similarity, a widely used metric in information retrieval and text mining. The resulting similarity score is presented as a percentage, giving users an intuitive understanding of how closely their resume aligns with the job requirements. This helps job seekers identify gaps in their resumes and optimize them for specific roles, while also demonstrating how automated resume screening systems work behind the scenes.
